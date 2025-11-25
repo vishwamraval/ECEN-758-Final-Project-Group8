@@ -1,1 +1,1 @@
-# Classification of Describable Textures Dataset
+# Classification on Describable Textures Dataset
