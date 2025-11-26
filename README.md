@@ -37,3 +37,8 @@ This will compute the accuracy, precision, recall, F1 score, display the confusi
 
 - [Project Blog Post](https://medium.com/@harshitamandalika029/classification-on-describable-textures-dataset-dtd-0b5b4849c214)
 - [Report](https://github.com/vishwamraval/ECEN-758-Final-Project-Group8/blob/main/Group_8_Report.pdf)
+
+## Contributions
+- ResNet18 : Harshita Mandalika
+- SimpleCNN : Vishwam Rawal
+- InceptionV3: Chetan Borra
