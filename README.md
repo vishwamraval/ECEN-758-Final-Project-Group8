@@ -25,11 +25,12 @@ This will compute the accuracy, precision, recall, F1 score, display the confusi
 # How to run the website
 
 1. install streamlit and pillow, `pip install streamlit pillow`
-2. Run streamlit code, `streamlit run resnetmodel_website.py`
-3. The website will open in a browser
-4. To see the list of classes, click on the `Show DTD Class Names` button.
-5. Upload an image using the `Browse Files` Button.
-6. Once the image is loaded, the model will run inference and provide the top 5 predicted classes and confidence.
+2. Make sure the `resnet18_dtd_best.pth` file is in the same directory as the `resnetmodel_website.py`.
+3. Run streamlit code, `streamlit run resnetmodel_website.py`
+4. The website will open in a browser
+5. To see the list of classes, click on the `Show DTD Class Names` button.
+6. Upload an image using the `Browse Files` Button.
+7. Once the image is loaded, the model will run inference and provide the top 5 predicted classes and confidence.
 
 ## Additional Resources
 
