@@ -40,5 +40,5 @@ This will compute the accuracy, precision, recall, F1 score, display the confusi
 
 ## Contributions
 - ResNet18 : Harshita Mandalika
-- SimpleCNN : Vishwam Rawal
+- SimpleCNN : Vishwam Raval
 - InceptionV3: Chetan Borra
