@@ -2,6 +2,8 @@
 This project implements classification on the Describable Textures Dataset (DTD) using a baseline SimpleCNN and a deeper ResNet-18 model trained from scratch. The workflow includes data preparation, EDA, hyperparameter tuning, model training, and final evaluation. 
 
 ## Files
+- DTD_SIMPLE_CNN.ipynb : SimpleCNN model training, saving model
+- simple_cnn_dtd_model3.pth : Saved SimpleCNN model
 - resnet18_train.ipynb : (ResNet-18) Hyperparameter tuning, final training, saving best model
 - resnet18_dtd_best.pth : Saved best (ResNet-18) model
 - test.py : Loads the saved ResNet-18 model and evaluates it on the DTD test set (accuracy, precision, recall, F1 score, confusion matrix, classification report)
