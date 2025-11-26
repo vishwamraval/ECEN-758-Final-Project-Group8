@@ -22,7 +22,7 @@ This project implements classification on the Describable Textures Dataset (DTD)
 
 This will compute the accuracy, precision, recall, F1 score, display the confusion matrix for all 47 DTD classes, and print the classification report.
 
-# How to run the website
+## How to run inference on test images
 
 1. install streamlit and pillow, `pip install streamlit pillow`
 2. Make sure the `resnet18_dtd_best.pth` file is in the same directory as the `resnetmodel_website.py`.
