@@ -1,7 +1,9 @@
 # Classification on Describable Textures Dataset
-This project implements classification on the Describable Textures Dataset (DTD) using a baseline SimpleCNN and a deeper ResNet-18 model trained from scratch. The workflow includes data preparation, EDA, hyperparameter tuning, model training, and final evaluation. 
+
+This project implements classification on the Describable Textures Dataset (DTD) using a baseline SimpleCNN and a deeper ResNet-18 model trained from scratch. The workflow includes data preparation, EDA, hyperparameter tuning, model training, and final evaluation.
 
 ## Files
+
 - Descriptive_Statistics_DTD.ipynb : Descriptive Statistics
 - dtd_dataset_eda.ipynb : EDA Visualization
 - DTD_SIMPLE_CNN.ipynb : SimpleCNN model training, saving model
@@ -11,6 +13,7 @@ This project implements classification on the Describable Textures Dataset (DTD)
 - test.py : Loads the saved ResNet-18 model and evaluates it on the DTD test set (accuracy, precision, recall, F1 score, confusion matrix, classification report)
 
 ## How to run
+
 1. Make sure the following two files are in the same folder:
    - resnet18_dtd_best.pth (saved best model)
    - test.py
@@ -19,6 +22,16 @@ This project implements classification on the Describable Textures Dataset (DTD)
 
 This will compute the accuracy, precision, recall, F1 score, display the confusion matrix for all 47 DTD classes, and print the classification report.
 
+# How to run the website
+
+1. install streamlit and pillow, `pip install streamlit pillow`
+2. Run streamlit code, `streamlit run resnetmodel_website.py`
+3. The website will open in a browser
+4. To see the list of classes, click on the `Show DTD Class Names` button.
+5. Upload an image using the `Browse Files` Button.
+6. Once the image is loaded, the model will run inference and provide the top 5 predicted classes and confidence.
+
 ## Additional Resources
+
 - [Project Blog Post](https://medium.com/@harshitamandalika029/classification-on-describable-textures-dataset-dtd-0b5b4849c214)
 - [Report](https://github.com/vishwamraval/ECEN-758-Final-Project-Group8/blob/main/Group_8_Report.pdf)
