@@ -6,6 +6,7 @@ This project implements classification on the Describable Textures Dataset (DTD)
 
 - Descriptive_Statistics_DTD.ipynb : Descriptive Statistics
 - dtd_dataset_eda.ipynb : EDA Visualization
+- dtd_classification.ipynb : InceptionV3 Code
 - DTD_SIMPLE_CNN.ipynb : SimpleCNN model training, saving model
 - simple_cnn_dtd_model3.pth : Saved SimpleCNN model
 - resnet18_train.ipynb : (ResNet-18) Hyperparameter tuning, final training, saving best model
